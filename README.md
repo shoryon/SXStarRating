@@ -4,6 +4,7 @@
 example:
 
  #import "ViewController.h"
+ 
  #import "SXStarRatingView.h"
 
 @interface ViewController () <SXStarRatingViewDelegate>
