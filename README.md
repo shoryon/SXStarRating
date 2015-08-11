@@ -1,8 +1,9 @@
 # SXStarRating
 星星评分视图
 
-#import "ViewController.h"
+example:
 
+#import "ViewController.h"
 #import "SXStarRatingView.h"
 
 @interface ViewController () <SXStarRatingViewDelegate>
