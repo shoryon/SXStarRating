@@ -3,8 +3,8 @@
 
 example:
 
-#import "ViewController.h"
-#import "SXStarRatingView.h"
+ #import "ViewController.h"
+ #import "SXStarRatingView.h"
 
 @interface ViewController () <SXStarRatingViewDelegate>
 
