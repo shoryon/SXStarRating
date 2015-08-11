@@ -15,7 +15,7 @@ example:
 
 @implementation ViewController
 
- - (void)viewDidLoad {
+- (void)viewDidLoad {
     
     [super viewDidLoad];
     
@@ -42,7 +42,7 @@ example:
 
  #pragma mark - starRatingView delegate
 
- - (void)starRatingView:(SXStarRatingView *)starRatingView score:(CGFloat)score {
+- (void)starRatingView:(SXStarRatingView *)starRatingView score:(CGFloat)score {
     
     NSLog(@"%s, %f", __func__, score);
     
