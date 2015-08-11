@@ -1,5 +1,5 @@
 # SXStarRating
-星星评分视图
+# 星星评分视图
 
 example:
 
