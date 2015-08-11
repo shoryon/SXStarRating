@@ -21,14 +21,14 @@
     
     [super viewDidLoad];
     
-    // 用代码来初始化星星视图
+    // 1.用代码来初始化星星视图
 //    SXStarRatingView *starRatingViewCustom = [[SXStarRatingView alloc] initWithFrame:CGRectMake(20, 40, 244, 44) numberOfStar:5];
 //    SXStarRatingView *starRatingViewCustom = [[SXStarRatingView alloc] initWithFrame:CGRectMake(20, 40, 244, 44) numberOfStar:5 halfStar:YES];
 //    SXStarRatingView *starRatingViewCustom = [[SXStarRatingView alloc] initWithFrame:CGRectMake(20, 40, 244, 44) numberOfStar:5 score:3.5];
     SXStarRatingView *starRatingViewCustom = [[SXStarRatingView alloc] initWithFrame:CGRectMake(20, 40, 244, 44) numberOfStar:5 score:3.5 halfStar:YES];
     [self.view addSubview:starRatingViewCustom];
     
-    // 用storyboard/xib来初始化星星视图
+    // 2.用storyboard/xib来初始化星星视图
     self.starRatingView.halfStar = YES;
     self.starRatingView.numberOfStar = 8;
     self.starRatingView.score = 6.5;
